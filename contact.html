@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>যোগাযোগ – টি সাহেব বাড়ী সরকারি প্রাথমিক বিদ্যালয়</title>
+  <!-- Google Font -->
+  
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Hind Siliguri',sans-serif;background:#f5f5f5;color:#333;}
+
+    /* Header */
+    header{background:#003366;color:white;padding:20px 10px;}
+    .header-inner{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;}
+    .logo{display:flex;align-items:center;}
+    .logo img{height:80px;margin-right:15px;}
+    .logo-text{font-size:24px;font-weight:bold;line-height:1.3;}
+    .logo-text h5{font-size:14px;font-weight:400;margin-top:5px;}
+
+    /* Nav */
+    nav{background:#0055a5;}
+    nav ul{max-width:1100px;
+	  margin:auto;
+	  list-style:none;
+	  display:flex;
+	  justify-content:center;
+	     align-items:center;
+	 gap:60px;}
+    nav ul li a{display:block;padding:12px 15px;color:white;font-weight:bold;text-decoration:none;}
+	nav a i {
+	color : #FFFFFF;}
+    nav ul li a:hover,nav ul li a.active{background:#0077cc;}
+
+    /* Main */
+    .main{max-width:1100px;margin:30px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+    .main h2{text-align:center;margin-bottom:30px;font-size:28px;color:#003366;}
+
+    /* Contact Info */
+    .contact-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-bottom:30px;}
+    .info-card{background:#eef6ff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);padding:20px;transition:transform 0.3s;}
+    .info-card:hover{transform:translateY(-5px);}
+    .info-card h3{font-size:20px;color:#2c3e50;margin-bottom:8px;}
+    .info-card p{font-size:16px;color:#555;line-height:1.6;}
+
+    
+    /* Footer */
+    footer{background:#003366;color:white;text-align:center;padding:15px 10px;margin-top:40px;}
+    footer a{color:#ffcc00;text-decoration:underline;}
+
+    @media(max-width:768px){
+      .header-inner{flex-direction:column;text-align:center;}
+      nav ul{flex-direction:column;}
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <img src="logo.png" alt="স্কুল লোগো">
+        <div class="logo-text">
+          টি সাহেব বাড়ী সরকারি প্রাথমিক বিদ্যালয়
+          <h6>নাঙ্গলকোট, কুমিল্লা</h6>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav>
+    <ul>
+        <li><a href="index.html"> <i class="fas fa-home"></i>  প্রথম পাতা</a></li>
+      <li><a href="porichiti.html"><i class="fas fa-info-circle"></i>  পরিচিতি</a></li>
+      <li><a href="jonobol.html"><i class="fas fa-users"></i> জনবল</a></li>
+      <li><a href="shikkharthi.html"> <i class="fas fa-user-graduate"></i>শিক্ষার্থী</a></li>
+      <li><a href="result.html"><i class="fas fa-chart-bar"></i>  ফলাফল</a></li>
+      <li><a href="gallery.html"><i class="fas fa-images"></i> গ্যালারী</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> যোগাযোগ</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h2>যোগাযোগের তথ্য</h2>
+    <div class="contact-info">
+      <div class="info-card">
+        <h3>প্রতিষ্ঠানের নাম</h3>
+        <p>টি সাহেব বাড়ী সরকারি প্রাথমিক বিদ্যালয়</p>
+      </div>
+      <div class="info-card">
+        <h3>পোস্ট অফিস</h3>
+        <p>মক্রবপুর</p>
+      </div>
+      <div class="info-card">
+        <h3>উপজেলা</h3>
+        <p>নাঙ্গলকোট</p>
+      </div>
+      <div class="info-card">
+        <h3>জেলা</h3>
+        <p>কুমিল্লা</p>
+      </div>
+      <div class="info-card">
+        <h3>বিভাগ</h3>
+        <p>চট্টগ্রাম</p>
+      </div>
+      <div class="info-card">
+        <h3>টেলিফোন</h3>
+        <p>০১৭xxxxxxxx</p>
+      </div>
+      <div class="info-card">
+        <h3>ইমেইল</h3>
+        <p>info@tsahabschool.edu.bd</p>
+      </div>
+      <div class="info-card">
+        <h3>ওয়েবসাইট</h3>
+        <p><a href="http://www.tsahabschool.edu.bd" target="_blank">www.tsahabschool.edu.bd</a></p>
+      </div>
+    </div>
+	</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; ২০২৫ টি সাহেব বাড়ী সরকারি প্রাথমিক বিদ্যালয়, নাঙ্গলকোট, কুমিল্লা।</p>
+  </footer>
+</body>
+</html>
